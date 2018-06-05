@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="NumberKeyboardView">
+        <!--键盘背景色 -->
+        <attr name="keyBackground" format="color"/>
+        <!-- 键盘文字颜色 -->
+        <attr name="keyTextColor" format="color"/>
+        <!-- 阴影颜色 -->
+        <attr name="shadowColor" format="color"/>
+        <!-- 例如 '完成' 这种文本 -->
+        <attr name="labelTextSize" format="dimension"/>
+        <!-- 键盘文字大小 -->
+        <attr name="keyTextSize" format="dimension"/>
+        <!-- 键盘阴影圆角 -->
+        <attr name="shadowRadius" format="float"/>
+    </declare-styleable>
+
+</resources>

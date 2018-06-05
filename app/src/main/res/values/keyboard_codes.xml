@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="hide_keyboard">-10</integer>
+
+    <integer name="action_done">-11</integer>
+
+    <integer name="line_feed">-12</integer>
+</resources>
