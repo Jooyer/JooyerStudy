@@ -1,33 +1,37 @@
 apply plugin: 'com.android.application'
-
 apply plugin: 'kotlin-android'
-
 apply plugin: 'kotlin-android-extensions'
-
 android {
 
     compileSdkVersion rootProject.ext.android.compileSdkVersion
     buildToolsVersion  rootProject.ext.android.buildToolsVersion
 
     defaultConfig {
-        applicationId "cn.molue.jooyer.numberkeyboard"
+        applicationId "cn.molue.jooyer.dialog"
         minSdkVersion  rootProject.ext.android.minSdkVersion
         targetSdkVersion  rootProject.ext.android.targetSdkVersion
         versionCode  rootProject.ext.android.versionCode
         versionName  rootProject.ext.android.versionName
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+
     buildTypes {
         release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            postprocessing {
+                removeUnusedCode false
+                removeUnusedResources false
+                obfuscate false
+                optimizeCode false
+                proguardFile 'proguard-rules.pro'
+            }
         }
     }
+
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation"org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     implementation rootProject.ext.dependencies.support_v7
     implementation rootProject.ext.dependencies.constraint_layout
     testImplementation rootProject.ext.dependencies.junit
@@ -35,7 +39,6 @@ dependencies {
     androidTestImplementation rootProject.ext.dependencies.espresso_core
 }
 
-// https://www.cnblogs.com/teddy-yan/p/6841022.html
 configurations.all {
     resolutionStrategy.force 'com.android.support:support-annotations:26.1.0'
 }

@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 默认使用,所以必须拷贝此 style  -->
+    <style name="JDialogStyle" parent="@android:style/Theme.Dialog">
+
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 决定背景透明度 -->
+        <item name="android:backgroundDimAmount">0.3</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Dialog进入及退出动画,这样所有使用此 style 都有这个动画, 可以单独指定的 -->
+        <!--<item name="android:windowAnimationStyle">@style/JDialogAnimation</item>-->
+    </style>
+
+    <!-- 默认使用,所以必须拷贝此 style -->
+    <!-- 自定义动画,可以使用系统的,即把parent= 后面的直接 "android:windowAnimationStyle">   -->
+    <style name="JDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/jdialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/jdialog_exit</item>
+    </style>
+
+    <!-- 升级时使用的类似效果 -->
+    <style name="UpdateAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/update_scale_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/update_scale_fade_out</item>
+    </style>
+
+</resources>

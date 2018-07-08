@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         keyboardUtil.bindEditText(et_test)
         keyboardUtil.setOnDoneListener(object : OnDoneListener {
             override fun onDone(text: String) {
+                keyboardUtil.hideSoftKeyboard()
                 Log.i("TEST", "21------------->$text ")
             }
             /**

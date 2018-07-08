@@ -1,0 +1,43 @@
+ext {
+    android = [
+            compileSdkVersion: 26,
+            buildToolsVersion: "26.0.2",
+            minSdkVersion    : 21,
+            targetSdkVersion : 27,
+            versionCode      : 1,
+            versionName      : "1.0.0"
+    ]
+
+    dependencies = [
+
+            junit                 : 'junit:junit:4.12',
+            runner                : 'com.android.support.test:runner:1.0.2',
+            espresso_core         : 'com.android.support.test.espresso:espresso-core:3.0.2',
+            support_v7            : 'com.android.support:appcompat-v7:26.1.0',
+            constraint_layout     : 'com.android.support.constraint:constraint-layout:1.1.2',
+            design                : "com.android.support:design:26.1.0",
+            recyclerview          : 'com.android.support:recyclerview-v7:26.1.0',
+            glide                 : 'com.github.bumptech.glide:glide:3.7.0',
+
+            rxjava                : 'io.reactivex.rxjava2:rxjava:2.1.5',
+            rxandroid             : 'io.reactivex.rxjava2:rxandroid:2.0.1',
+            retrofit              : 'com.squareup.retrofit2:retrofit:2.3.0',
+            converter_scalars     : 'com.squareup.retrofit2:converter-scalars:2.3.0',
+//            converter_gson      : 'com.squareup.retrofit2:converter-gson:2.0.0-beta4',
+            adapter_rxjava        : 'com.squareup.retrofit2:adapter-rxjava2:2.3.0',
+            logging_interceptor   : 'com.squareup.okhttp3:logging-interceptor:3.6.0',
+            rxbinding             : 'com.jakewharton.rxbinding2:rxbinding:2.0.0',
+            rxrelay2              : 'com.jakewharton.rxrelay2:rxrelay:2.0.0',
+            fastjson              : 'com.alibaba:fastjson:1.2.21',
+
+            greendao              : 'org.greenrobot:greendao:3.2.0',
+            butterknife           : 'com.jakewharton:butterknife:8.5.1',
+            butterknife_aProcessor: 'com.jakewharton:butterknife-compiler:8.5.1',
+
+            glide2                : 'com.github.bumptech.glide:glide:4.1.1',
+            glide_compiler        : 'com.github.bumptech.glide:compiler:4.1.1',
+            PhotoView             : 'com.github.chrisbanes:PhotoView:1.3.1',
+            permission            : 'com.yanzhenjie:permission:1.1.2',
+    ]
+
+}

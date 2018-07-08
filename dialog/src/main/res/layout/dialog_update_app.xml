@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="250dp"
+        android:layout_height="420dp"
+        android:background="@mipmap/ic_update_app_bg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <ImageView
+            android:id="@+id/iv_close_update"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="40dp"
+            android:padding="8dp"
+            android:src="@mipmap/ic_update_app_close"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="200dp"
+            app:layout_constraintBottom_toTopOf="@+id/tv_bottom_update"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:scrollbars="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_message_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical"
+                android:text="1: 受限于物质收入与精神压力,老师担任班主任的意愿普遍不高;\n2: 他们面临着职业困境：工作时间无限，肩头责任无限；\n3: 孩子个性鲜明，班主任难于管理；家长和社会的要求和期望过高，压力难以缓解，以致于一些中小学陷“班主任危机”;\n4: 班主任的选聘上也应该更加尊重教师的选择，不能附加相关条件来降低班主任的荣誉感，获得感。"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="16sp"
+                android:lineSpacingMultiplier="1.3"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+        </android.support.v4.widget.NestedScrollView>
+
+
+        <TextView
+            android:id="@+id/tv_bottom_update"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="开始更新"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:background="@android:color/holo_red_light"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>
