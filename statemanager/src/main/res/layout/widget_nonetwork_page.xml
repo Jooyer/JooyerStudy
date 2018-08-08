@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <ImageView
+        android:id="@+id/no_network_img_status"
+        android:layout_width="@dimen/width_100"
+        android:layout_height="@dimen/height_100"
+        android:background="@android:color/holo_green_dark"
+        />
+
+    <TextView
+        android:id="@+id/no_network_text_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_10"
+        android:layout_marginTop="@dimen/padding_10"
+        android:text="网络错误!..."
+        />
+
+    <TextView
+        android:id="@+id/tv_retry_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center"
+        android:paddingBottom="@dimen/padding_6"
+        android:paddingLeft="@dimen/padding_18"
+        android:paddingRight="@dimen/padding_18"
+        android:paddingTop="@dimen/padding_6"
+        android:text="点击重试"
+        />
+
+
+</LinearLayout>

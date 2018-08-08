@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/option_empty_page"
+        android:title="empty_page"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/option_error_page"
+        android:title="error_page"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/option_loading_page"
+        android:title="loading_page"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/option_network_page"
+        android:title="network_page"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/option_content_page"
+        android:title="content_page"
+        app:showAsAction="never"/>
+
+</menu>
