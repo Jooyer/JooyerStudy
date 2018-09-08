@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/main_theme_color</color>
+    <color name="colorPrimaryDark">@color/main_theme_color</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 主色 -->
+    <color name="main_theme_color">#2396FA</color>
+    <!-- 选中填充色 -->
+    <color name="choice_current_fill_color">#F5F5F5</color>
+    <!-- 选对填充色 -->
+    <color name="choice_correct_fill_color">#E9F7E9</color>
+    <!-- 选错填充色 -->
+    <color name="choice_wrong_fill_color">#FFEFEA</color>
+    <!-- 选中框颜色 -->
+    <color name="choice_current_color">#DDDDDD</color>
+    <!-- 选对框颜色 -->
+    <color name="choice_correct_color">#A4DBA4</color>
+    <!-- 选错框颜色 -->
+    <color name="choice_wrong_color">#FEB196</color>
+    <!-- 选对文字颜色 -->
+    <color name="choice_correct_text_color">#49B849</color>
+    <!-- 选错文字颜色 -->
+    <color name="choice_wrong_text_color">#FE632E</color>
+
+    <!-- 底部导航栏分割线颜色 -->
+    <color name="bottom_bar_divider_color">#838383</color>
+    <!-- 底部导航栏未选中颜色 -->
+    <color name="bottom_bar_un_select">#999999</color>
+    <!-- 底部导航栏选中颜色 -->
+    <color name="bottom_bar_select">#FE632E</color>
+
+
+    <color name="color_001111">#001111</color>
+    <color name="color_111111">#111111</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_999999">#999999</color>
+
+    <color name="color_CCCCCC">#CCCCCC</color>
+    <color name="color_DCDCDC">#DCDCDC</color>
+    <color name="color_DDDDDD">#DDDDDD</color>
+    <color name="color_E5E5E5">#E5E5E5</color>
+    <color name="color_EEEEEE">#EEEEEE</color>
+    <color name="color_F4F4F4">#F4F4F4</color>
+    <color name="color_F9F9F9">#F9F9F9</color>
+    <color name="color_write">#FFFFFF</color>
+    <color name="color_black">#000000</color>
+
+    <color name="color_FE632E">#FE632E</color>
+
+    <color name="half_transparent">#e0000000</color>
+
+    <color name="cardview_shadow_start_color">#D2d2d2</color>
+    <color name="cardview_shadow_end_color">#F6F6F6</color>
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.molue.jooyer.toolbar.MainActivity"
+    >
+
+    <cn.molue.jooyer.toolbar.CustomToolbar
+        android:id="@+id/ct_tool_bar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_6"
+        android:layout_marginBottom="@dimen/padding_6"
+        app:ct_center_text_info="左边图片，右边文本"
+        app:ct_right_text_info="清空"
+        app:ct_right_text_right_margin="@dimen/padding_5"
+        app:ct_right_text_visible="true"
+        />
+
+
+    <cn.molue.jooyer.toolbar.CustomToolbar
+        android:id="@+id/ct_tool_bar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_6"
+        android:layout_marginBottom="@dimen/padding_6"
+        app:ct_center_text_info="左边图片，右边图片"
+        app:ct_right_image_drawable="@mipmap/icon_black_back"
+        app:ct_right_image_right_margin="@dimen/padding_5"
+        />
+
+    <cn.molue.jooyer.toolbar.CustomToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_6"
+        android:layout_marginBottom="@dimen/padding_6"
+        app:ct_center_text_info="左边文本，右边文本"
+        app:ct_left_image_visible="false"
+        app:ct_left_text_info="返回"
+        app:ct_left_text_left_margin="@dimen/padding_5"
+        app:ct_left_text_visible="true"
+        app:ct_right_image_right_margin="@dimen/padding_5"
+        app:ct_right_text_info="清空"
+        app:ct_right_text_right_margin="@dimen/padding_5"
+        app:ct_right_text_visible="true"
+        />
+
+    <cn.molue.jooyer.toolbar.CustomToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_6"
+        android:layout_marginBottom="@dimen/padding_6"
+        app:ct_center_text_info="左边文本，右边图片"
+        app:ct_left_image_visible="false"
+        app:ct_left_text_info="返回"
+        app:ct_left_text_left_margin="@dimen/padding_5"
+        app:ct_left_text_visible="true"
+        app:ct_right_image_drawable="@mipmap/icon_black_back"
+        app:ct_right_image_right_margin="@dimen/padding_5"
+
+        />
+
+    <cn.molue.jooyer.toolbar.CustomToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_6"
+        android:layout_marginBottom="@dimen/padding_6"
+        app:ct_background_color="@color/colorAccent"
+        app:ct_center_text_info="改变背景色"
+        app:ct_left_image_visible="false"
+        app:ct_left_text_info="返回"
+        app:ct_left_text_left_margin="@dimen/padding_5"
+        app:ct_left_text_visible="true"
+        app:ct_right_image_drawable="@mipmap/icon_black_back"
+        app:ct_right_image_right_margin="@dimen/padding_5"
+        />
+
+
+</LinearLayout>

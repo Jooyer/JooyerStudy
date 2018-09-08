@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomToolbar">
+        <!-- 左侧文本是否显示 -->
+        <attr name="ct_left_text_visible" format="boolean"/>
+        <!-- 左侧文本 -->
+        <attr name="ct_left_text_info" format="reference|string"/>
+        <!-- 左侧文本大小 -->
+        <attr name="ct_left_text_size" format="dimension|integer"/>
+        <!-- 左侧文本颜色 -->
+        <attr name="ct_left_text_color" format="color|reference"/>
+        <!-- 左侧文本左侧 MarginLeft -->
+        <attr name="ct_left_text_left_margin" format="dimension|integer"/>
+        <!-- 左侧图片是否显示 -->
+        <attr name="ct_left_image_visible" format="boolean"/>
+        <!-- 左侧图片 Drawable -->
+        <attr name="ct_left_image_drawable" format="reference"/>
+        <!-- 左侧图片宽度 -->
+        <attr name="ct_left_image_width" format="dimension|integer"/>
+        <!-- 左侧图片高度 -->
+        <attr name="ct_left_image_height" format="dimension|integer"/>
+        <!-- 左侧图片 Padding(上下左右) -->
+        <attr name="ct_left_image_padding" format="dimension|integer"/>
+        <!-- 左侧图片左侧 MarginLeft -->
+        <attr name="ct_left_image_left_margin" format="dimension|integer"/>
+        <!-- 中间文本 -->
+        <attr name="ct_center_text_info" format="reference|string"/>
+        <!-- 中间文本大小 -->
+        <attr name="ct_center_text_size" format="dimension|integer"/>
+        <!-- 中间文本颜色 -->
+        <attr name="ct_center_text_color" format="color|reference"/>
+        <!-- 右侧文本是否可见 -->
+        <attr name="ct_right_text_visible" format="boolean"/>
+        <!-- 右侧文本 -->
+        <attr name="ct_right_text_info" format="reference|string"/>
+        <!-- 右侧文本大小 -->
+        <attr name="ct_right_text_size" format="dimension|integer"/>
+        <!-- 右侧文本颜色 -->
+        <attr name="ct_right_text_color" format="color|reference"/>
+        <!-- 右侧文本右侧 MarginRight -->
+        <attr name="ct_right_text_right_margin" format="dimension|integer"/>
+        <!-- 右侧图片是否可见 -->
+        <attr name="ct_right_image_visible" format="boolean"/>
+        <!-- 右侧图片 Drawable -->
+        <attr name="ct_right_image_drawable" format="reference"/>
+        <!-- 右侧图片宽度 -->
+        <attr name="ct_right_image_width" format="dimension|integer"/>
+        <!-- 右侧图片高度 -->
+        <attr name="ct_right_image_height" format="dimension|integer"/>
+        <!-- 右侧图片 Padding(上下左右) -->
+        <attr name="ct_right_image_padding" format="dimension|integer"/>
+        <!-- 右侧图片右侧 MarginRight -->
+        <attr name="ct_right_image_right_margin" format="dimension|integer"/>
+        <!-- 底部分割线是否可见 -->
+        <attr name="ct_bottom_divider_visible" format="boolean"/>
+        <!-- 底部分割线颜色 -->
+        <attr name="ct_bottom_divider_color" format="color|reference"/>
+        <!-- Toolbar背景色 -->
+        <attr name="ct_background_color" format="color|reference"/>
+    </declare-styleable>
+
+</resources>

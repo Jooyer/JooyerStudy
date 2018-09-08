@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_50"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_left_icon_menu"
+        android:layout_width="@dimen/width_45"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/icon_black_back" />
+
+    <TextView
+        android:id="@+id/tv_left_name_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_111111"
+        android:textSize="@dimen/text_size_15"
+        tools:text="宝贝头像" />
+
+
+    <TextView
+        android:id="@+id/tv_center_title_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="@dimen/padding_20"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_111111"
+        android:textSize="@dimen/text_size_18"
+        android:textStyle="bold"
+        tools:text="请填写" />
+
+
+    <TextView
+        android:id="@+id/tv_right_name_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/padding_20"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_111111"
+        android:textSize="@dimen/text_size_15"
+        tools:text="请填写" />
+
+
+    <ImageView
+        android:id="@+id/iv_right_icon_menu"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/padding_20" />
+
+
+    <View
+        android:id="@+id/view_bottom_divider_menu"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_2"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_EEEEEE" />
+</RelativeLayout>
