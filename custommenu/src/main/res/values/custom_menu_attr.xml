@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomMenu">
+        <!-- 最左侧图标是否可见 -->
+        <attr name="cm_left_image_visible" format="boolean"/>
+        <!-- 最左侧图标的 drawable -->
+        <attr name="cm_left_image_drawable" format="reference"/>
+        <!-- 最左侧图标宽度 -->
+        <attr name="cm_left_image_width" format="dimension|integer"/>
+        <!-- 最左侧图表高度 -->
+        <attr name="cm_left_image_height" format="dimension|integer"/>
+
+        <!-- 紧靠左侧的文本 -->
+        <attr name="cm_left_text_info" format="reference|string"/>
+        <!-- 紧靠左侧的文本大小 -->
+        <attr name="cm_left_text_size" format="dimension|integer"/>
+        <!-- 紧靠左侧的文本颜色 -->
+        <attr name="cm_left_text_color" format="color|reference"/>
+        <!-- 紧靠左侧的文本左侧Margin -->
+        <attr name="cm_left_text_left_margin" format="dimension|integer"/>
+
+        <!-- 紧靠右侧的文本 -->
+        <attr name="cm_right_text_info" format="reference|string"/>
+        <!-- 紧靠右侧的文本是否可见 -->
+        <attr name="cm_right_text_visible" format="boolean"/>
+        <!-- 紧靠右侧的文本大小 -->
+        <attr name="cm_right_text_size" format="dimension|integer"/>
+        <!-- 紧靠右侧的文本颜色 -->
+        <attr name="cm_right_text_color" format="color|reference"/>
+        <!-- 紧靠右侧的文本右侧Margin -->
+        <attr name="cm_right_text_right_margin" format="dimension|integer"/>
+
+        <!-- 紧靠右侧图标是否可见 -->
+        <attr name="cm_right_near_image_visible" format="boolean"/>
+        <!-- 紧靠右侧图标的 drawable -->
+        <attr name="cm_right_near_image_drawable" format="reference"/>
+        <!-- 紧靠右侧图标宽度 -->
+        <attr name="cm_right_near_image_width" format="dimension|integer"/>
+        <!-- 紧靠右侧图表高度 -->
+        <attr name="cm_right_near_image_height" format="dimension|integer"/>
+
+        <!-- 最右侧图标的是否可见 -->
+        <attr name="cm_right_image_visible" format="boolean"/>
+        <!-- 最右侧图标的 drawable -->
+        <attr name="cm_right_image_drawable" format="reference"/>
+        <!-- 最右侧图标宽度 -->
+        <attr name="cm_right_image_width" format="dimension|integer"/>
+        <!-- 最右侧图表高度 -->
+        <attr name="cm_right_image_height" format="dimension|integer"/>
+
+        <!-- 底部分割线是否可见 -->
+        <attr name="cm_bottom_divider_visible" format="boolean"/>
+        <!-- 底部分割线颜色 -->
+        <attr name="cm_bottom_divider_color" format="color|reference"/>
+        <!-- 底部分割线左侧Margin -->
+        <attr name="cm_bottom_divider_left_margin" format="dimension|integer"/>
+
+
+    </declare-styleable>
+
+</resources>

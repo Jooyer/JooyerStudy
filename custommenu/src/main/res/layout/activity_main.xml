@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.molue.jooyer.custommenu.MainActivity">
+
+
+
+    <!-- 左边文本,右边图片 -->
+    <cn.molue.jooyer.custommenu.CustomMenu
+        android:id="@+id/cm_1_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cm_left_image_visible="false"
+        app:cm_left_text_left_margin="@dimen/padding_20"
+        app:cm_left_text_info="左边文本"
+        app:cm_bottom_divider_visible="true"
+        app:cm_right_text_color="@color/color_999999"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <!-- 左边文本,右边文本+图片 -->
+    <cn.molue.jooyer.custommenu.CustomMenu
+        android:id="@+id/cm_2_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cm_left_image_visible="false"
+        app:cm_left_text_left_margin="@dimen/padding_20"
+        app:cm_left_text_info="左边文本"
+        app:cm_right_text_right_margin="@dimen/padding_10"
+        app:cm_right_text_info="右边文本"
+        app:cm_bottom_divider_visible="true"
+        app:cm_right_text_color="@color/color_999999"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cm_1_main"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+
+    <!-- 左边图片,右边图片 -->
+    <cn.molue.jooyer.custommenu.CustomMenu
+        android:id="@+id/cm_3_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cm_left_image_visible="true"
+        app:cm_left_image_drawable="@drawable/ic_launcher_background"
+        app:cm_bottom_divider_visible="true"
+        app:cm_right_text_color="@color/color_999999"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cm_2_main"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <!-- 左边图片,右边文本 -->
+    <cn.molue.jooyer.custommenu.CustomMenu
+        android:id="@+id/cm_4_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cm_left_image_visible="true"
+        app:cm_left_image_drawable="@drawable/ic_launcher_background"
+        app:cm_right_text_right_margin="@dimen/padding_10"
+        app:cm_right_text_info="右边文本"
+        app:cm_bottom_divider_visible="true"
+        app:cm_right_image_visible="false"
+        app:cm_right_text_color="@color/color_999999"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cm_3_main"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <!-- 左边图片+文本,右边文本 -->
+    <cn.molue.jooyer.custommenu.CustomMenu
+        android:id="@+id/cm_5_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cm_left_image_visible="true"
+        app:cm_left_image_drawable="@drawable/ic_launcher_background"
+        app:cm_right_text_right_margin="@dimen/padding_10"
+        app:cm_right_text_info="右边文本"
+        app:cm_left_text_info="左边文本"
+        app:cm_bottom_divider_visible="true"
+        app:cm_right_image_visible="false"
+        app:cm_right_text_color="@color/color_999999"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cm_4_main"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <!-- 左边图片+文本,右边文本+图片 -->
+    <cn.molue.jooyer.custommenu.CustomMenu
+        android:id="@+id/cm_6_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cm_left_image_visible="true"
+        app:cm_left_image_drawable="@drawable/ic_launcher_background"
+        app:cm_right_text_right_margin="@dimen/padding_10"
+        app:cm_right_text_info="右边文本"
+        app:cm_left_text_info="左边文本"
+        app:cm_bottom_divider_visible="true"
+        app:cm_right_image_visible="true"
+        app:cm_right_text_color="@color/color_999999"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cm_5_main"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <!-- 左边图片+文本,右边图片+图片 -->
+    <cn.molue.jooyer.custommenu.CustomMenu
+        android:id="@+id/cm_7_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cm_left_image_visible="true"
+        app:cm_left_image_drawable="@drawable/ic_launcher_background"
+        app:cm_right_text_visible="false"
+        app:cm_right_near_image_visible="true"
+        app:cm_right_near_image_drawable="@drawable/ic_launcher_background"
+        app:cm_left_text_info="左边文本"
+        app:cm_bottom_divider_visible="false"
+        app:cm_right_image_visible="true"
+        app:cm_right_near_image_width="@dimen/width_20"
+        app:cm_right_near_image_height="@dimen/height_20"
+        app:cm_right_text_color="@color/color_999999"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cm_6_main"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+</android.support.constraint.ConstraintLayout>

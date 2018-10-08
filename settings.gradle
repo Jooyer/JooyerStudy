@@ -1,1 +1,1 @@
-include ':app', ':dialog', ':statemanager', ':toolbar'
+include ':app', ':dialog', ':statemanager', ':toolbar', ':custommenu'
