@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/custommenu" />
             <option value="$PROJECT_DIR$/dialog" />
+            <option value="$PROJECT_DIR$/limitedittext" />
             <option value="$PROJECT_DIR$/statemanager" />
             <option value="$PROJECT_DIR$/toolbar" />
           </set>
